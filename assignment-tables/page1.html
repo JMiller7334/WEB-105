@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tables</title>
+    <!-- Table: for styling table with border, etc -->
+    <style>
+    .container{
+        width: 650px;
+        padding: 10px;
+        background: whitesmoke;
+    }
+    table{
+        border-width: 1px;
+        border-style: solid;
+        border-color:black
+    }
+    table tr{
+        border-width: 1px;
+        border-style: solid;
+        border-color:orangered;
+        margin: 5px;
+    }
+    table tr td{
+        border-width: 1px;
+        border-style: solid;
+        border-color:rgb(100, 12, 12);
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="page2.html">Tables Calender</a>
+    </div>
+    <table> <!-- Table tag to create the table-->
+        <tr>
+            <th>Example Header</th> <!--TH: Table header. remember it needs owqn row. -->
+        </tr>
+        <tr>
+            <td>Detail Example</td> <!-- TD: table detail for adding info to table-->
+            <td>Detail Example</td>
+            <td>Detail Example</td>
+            <td>Detail Example</td>
+
+        </tr> <!-- TR: table row tag for setting up the rows of the table --> 
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td colspan="4">Merge Rows Across</td> <!-- colspan allows this cell to span multiple rows.-->
+        </tr>
+    </table>
+</body>
+</html>

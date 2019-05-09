@@ -1,0 +1,115 @@
+/*----- Style ----- */
+/*{
+    border: 2px red solid;
+}*/
+
+h2{
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+/*Menu Header*/
+h4{
+    text-align: center;
+    color:black;
+    background: grey;
+    font-size: 2em;
+}
+/*Menu Item header*/
+h5{
+    text-align: center;
+    color:black;
+    background: grey;
+    font-size: 24px; 
+    padding: 10px;
+}
+
+h6{
+    text-align: center;
+    color:black;
+    background: grey;
+    font-size: 24px; 
+    padding: 2px;
+}
+
+p{
+    text-align: left;
+    color:black;
+    background: grey;
+    font-size: 16px;
+}
+
+
+/* ------ Classes ----- */
+.flex-item{
+    background-color: rgb(15, 83, 172);
+    border:2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    height: 200px;
+    margin-top: 12px;
+    line-height: 150px;
+}
+
+.flex-container{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-box;
+
+    /* flex-basis: 0;  item intial size*/ 
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background:grey;
+}
+
+.menu-container{
+    background: grey;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.fill-container{
+    background: grey;
+    padding: 10px;
+    width: 100%;
+    height: 190px;
+}
+
+.fill-container2{
+    background: grey;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.bg-grey{
+    background: grey;
+}
+
+.reformat1{
+    font-size: 24px;
+    text-align: center;
+    color:black;
+    background: grey;
+}
+
+.reformat2{
+    text-align: center;
+    color:black;
+    background: grey;
+    font-size: 28px; 
+    padding: 2px;
+}
